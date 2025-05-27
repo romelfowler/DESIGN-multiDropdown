@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Select Dropdown</title>
+    <script src="https://kit.fontawesome.com/1d13e1658a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="custom-select ">
+            <div class="select-box">
+                <input type="text" class="tags_input" name="tags" hidden/>
+                <div class="selected-options">
+                
+                </div>
+                <div class="arrow">
+                    <i class="fa fa-angle-down"></i>
+                </div>
+            </div>
+            <div class="options">
+                <div class="option-search-tags">
+                    <input type="text" class="search-tags" placeholder="Search">
+                    <button class="clear" type="button"><i class="fa fa-close"></i></button>
+                </div>
+                <div class="option all-tags" data-value="All">Select All</div>
+                <div class="option" data-value="option-one ">Option 1</div>
+                <div class="option" data-value="option-two ">Option 2</div>
+                <div class="option" data-value="option-three">Option 3</div>
+                <div class="option" data-value="option-four">Option 4</div>
+                <div class="option" data-value="option-five">Option 5</div>
+                <div class="no-result-message">No result match</div>
+            </div>
+            <span class="tag_error_msg error" style="display: none"></span>
+        </div>
+        <input type="button" class="btn_submit" value="Submit">
+    </div>
+    <script src="script.js"></script> 
+</body>
+</html>
