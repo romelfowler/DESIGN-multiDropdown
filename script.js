@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function(){
                         }
                     });
 
-                    if(addtionalTagsCount > 0){
+                    if(additionalTagsCount > 0){
                         tagsHTML += '<span class="tag">+'+additionalTagsCount+'</span>';
                     }
                 }
